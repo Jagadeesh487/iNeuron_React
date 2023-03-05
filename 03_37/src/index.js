@@ -11,6 +11,6 @@ function Forth(){
 
 const Photo =() => <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/toy-sport/k/q/l/inline-skates-abec-7-unisex-indoor-and-outdoor-adjustable-size-original-imafygsgdruhej5m.jpeg?q=70" alt="no iamge"></img>
 
-const Name =() => <h3>AR Jouiet Mansion Blue Skatting Skates and Skateboard</h3>
+const Name =() => <h3>AR Jouiet Mansion Blue Skatting Skates and Skateboards</h3>
 
 ReactDOM.render(<Forth/>,document.getElementById('root'))
