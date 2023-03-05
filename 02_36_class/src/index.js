@@ -25,9 +25,6 @@ function Sctarch(){
         <Name/>
     </div>
 }
-
-
-
 const Name = () => {
     return <h1>good in all</h1>
 } 
