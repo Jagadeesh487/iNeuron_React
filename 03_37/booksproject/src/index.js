@@ -7,6 +7,12 @@ const BookList1 = {
   Author:'Sollobell'
 }
 
+const BookList2 = {
+  Images:'https://m.media-amazon.com/images/I/618Wek95laS._UL1440_.jpg',
+  Title:'This sis shirt',
+  Author:'soooe'
+}
+
 function Books() {
   return(
     <section className='bookList'>
@@ -15,13 +21,23 @@ function Books() {
       title = {BookList1.Title}
       author = {BookList1.Author}>
       </Image>
+      <Image
+      img = {BookList2.Images}
+      title = {BookList2.Title}
+      author = {BookList2.Author}
+      ></Image>
     </section>
   )
 }
 
 const Image = ({img,title,author}) => {
   return (
-    <article></article>
+    <article 
+    >
+      <h2>{title}</h2>
+      <img src={img} alt=""/>      
+      <h4>{author}</h4>
+    </article>
   )
 }
 
