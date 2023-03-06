@@ -1,0 +1,28 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const BookList1 = {
+  Images:'https://m.media-amazon.com/images/I/41OkwB-uDWL.jpg',
+  Title:'Sollobell Men Cutaway Collar Plain Dark Blue Full Sleeve Casual Denim Shirt',
+  Author:'Sollobell'
+}
+
+function Books() {
+  return(
+    <section className='bookList'>
+      <Image 
+      img = {BookList1.Images}
+      title = {BookList1.Title}
+      author = {BookList1.Author}>
+      </Image>
+    </section>
+  )
+}
+
+const Image = ({img,title,author}) => {
+  return (
+    <article></article>
+  )
+}
+
+ReactDOM.render(<Books/>,document.getElementById("root"))

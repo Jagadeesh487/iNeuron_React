@@ -7,6 +7,7 @@ function Jaga() {
      <h1>Types of cloths</h1> 
      <Shirts/>
      <Shirts/>   
+     <Shirts/>   
      </div>
 }
 
