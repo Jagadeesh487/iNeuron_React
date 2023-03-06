@@ -1,16 +1,24 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css';
 
-function Forth(){
-  return <div>
-    <h1>TYPES OF SHOES</h1>
-    <Photo/>
-    <Name/>
-  </div>
+function Jaga() {
+    return <div>
+     <h1>Types of cloths</h1> 
+     <Shirts/>
+     <Shirts/>   
+     </div>
 }
 
-const Photo =() => <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/toy-sport/k/q/l/inline-skates-abec-7-unisex-indoor-and-outdoor-adjustable-size-original-imafygsgdruhej5m.jpeg?q=70" alt="no iamge"></img>
+const Shirts = () => {
+    return <div>
+        <h2>Full slevees</h2>
+        <img src='https://m.media-amazon.com/images/I/81EqA--jXFL._AC_UL320_.jpg' alt='Sorry no image'></img>
+        <h3>Denim Co. Men Casual Shirt</h3>
+        </div>
+}
 
-const Name =() => <h3>AR Jouiet Mansion Blue Skatting Skates and Skateboards</h3>
+ReactDOM.render(<Jaga/> , document.getElementById('root'))
 
-ReactDOM.render(<Forth/>,document.getElementById('root'))
+
+
