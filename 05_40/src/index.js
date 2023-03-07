@@ -1,4 +1,3 @@
-/*code for total thing in one file
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -33,7 +32,7 @@ const BookList =[
 
 function Books(){
   return <section className='bookList'> {BookList.map( (book)=>{
-    const {img, title, author}=book;
+    // const {img, title, author}=book;
     return (
         <Image key={book.id} {...book}></Image>
     )
@@ -48,10 +47,11 @@ const Image =({img,title,author}) => {
     <h2>{title}</h2>
     <h4>{author}</h4>
 
-  </article>);
+  </article>
+  );
 }
 
-ReactDOM.render(<Books/>, document.getElementById('root'));*/
+ReactDOM.render(<Books/>, document.getElementById('root'));
 
 /* maps example
 // import React from 'react'
