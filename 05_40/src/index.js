@@ -20,7 +20,7 @@ const BookList =[
       id:3,
      img:'https://m.media-amazon.com/images/I/51i0-FJQZjL._AC_UY436_FMwebp_QL65_.jpg',
      title:'BLOCKCHAIN',
-      author:'Don Tapscvott'
+      author:'Don Tapcvott'
     }
     ,{
       id:4,
