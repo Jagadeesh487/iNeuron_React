@@ -1,5 +1,5 @@
 import './index.css';
-import SetUp from './useStateBasics'
+import SetUp from './UseStateCounter'
 function App() {
   return (
     <div className="container">
